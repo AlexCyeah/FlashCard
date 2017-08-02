@@ -31,7 +31,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" text="Does your mom gay?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HSc-nv-Zjf">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" text="Can I get uhh B O N E L E S S pizza?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HSc-nv-Zjf">
                                         <rect key="frame" x="0.0" y="20.5" width="343" height="344"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -61,6 +61,11 @@
                             <constraint firstItem="bOe-e5-nrt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wrg-q9-S2W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerPickerView" destination="n0Y-Ns-uMi" id="4CV-Ml-d8N"/>
+                        <outlet property="questionLabel" destination="vmA-VA-X9y" id="J3F-im-p41"/>
+                        <outlet property="questionTextView" destination="HSc-nv-Zjf" id="KDN-db-S6b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
